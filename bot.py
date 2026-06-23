@@ -55,18 +55,20 @@ PHASES = [
                     {"id": "dm1", "name": "10 личных DM в LinkedIn", "xp": 25, "freq": "daily"},
                     {"id": "en1", "name": "30 мин английского", "xp": 10, "freq": "daily"},
                     {"id": "ct1", "name": "Пост или комментарии", "xp": 15, "freq": "daily"},
-                    {"id": "uw1", "name": "3 заявки на Upwork", "xp": 20, "freq": "daily"},
                     {"id": "in1", "name": "Инсайт дня", "xp": 10, "freq": "daily"},
                 ]
             },
             {
                 "title": "Разовые цели",
                 "tasks": [
+                    {"id": "uw1", "name": "Профиль на Upwork", "xp": 25, "freq": "once"},
+                    {"id": "uw2", "name": "Портфолио на Upwork", "xp": 20, "freq": "once"},
+                    {"id": "uw3", "name": "Первые 5 заявок", "xp": 20, "freq": "once"},
                     {"id": "pf1", "name": "AI demo-ролик 2-3 мин", "xp": 50, "freq": "once"},
                     {"id": "pf2", "name": "Кейс на английском", "xp": 30, "freq": "once"},
-                    {"id": "uw2", "name": "Профиль на Upwork", "xp": 25, "freq": "once"},
                     {"id": "ag1", "name": "Партнёрский pitch", "xp": 40, "freq": "once"},
                     {"id": "ct2", "name": "Первый контракт", "xp": 100, "freq": "once"},
+                    {"id": "rv1", "name": "Отзыв от клиента", "xp": 30, "freq": "once"},
                     {"id": "rl1", "name": "Счёт Wise/Payoneer", "xp": 30, "freq": "once"},
                     {"id": "rl2", "name": "Доход 1500+ USD x 2 мес", "xp": 100, "freq": "once"},
                 ]
@@ -79,18 +81,18 @@ PHASES = [
             {
                 "title": "Каждый день",
                 "tasks": [
-                    {"id": "dm2", "name": "10 DM агентствам и клиентам", "xp": 25, "freq": "daily"},
+                    {"id": "dm2", "name": "10 DM агентствам", "xp": 25, "freq": "daily"},
                     {"id": "en2", "name": "30 мин английского", "xp": 10, "freq": "daily"},
                     {"id": "ct3", "name": "Пост или BTS-видео", "xp": 15, "freq": "daily"},
-                    {"id": "uw3", "name": "3 заявки на Upwork", "xp": 20, "freq": "daily"},
+                    {"id": "uw4", "name": "3 заявки на Upwork", "xp": 20, "freq": "daily"},
                     {"id": "in2", "name": "Инсайт дня", "xp": 10, "freq": "daily"},
                 ]
             },
             {
                 "title": "Разовые цели",
                 "tasks": [
-                    {"id": "ag2", "name": "Закрыть 2й платный проект", "xp": 80, "freq": "once"},
-                    {"id": "rv1", "name": "Получить 2 отзыва на EN", "xp": 50, "freq": "once"},
+                    {"id": "ag2", "name": "2й платный проект", "xp": 80, "freq": "once"},
+                    {"id": "rv2", "name": "2 отзыва на английском", "xp": 50, "freq": "once"},
                     {"id": "rt1", "name": "Первый monthly retainer", "xp": 100, "freq": "once"},
                     {"id": "pk1", "name": "3 пакета услуг с ценами", "xp": 35, "freq": "once"},
                 ]
@@ -116,7 +118,7 @@ PHASES = [
                     {"id": "sr1", "name": "Регистрация ИП в Сербии", "xp": 50, "freq": "once"},
                     {"id": "rl3", "name": "Переезд семьи в Сербию", "xp": 200, "freq": "once"},
                     {"id": "cl1", "name": "3 постоянных клиента", "xp": 150, "freq": "once"},
-                    {"id": "rv2", "name": "5 отзывов на LinkedIn", "xp": 75, "freq": "once"},
+                    {"id": "rv3", "name": "5 отзывов на LinkedIn", "xp": 75, "freq": "once"},
                 ]
             },
         ]
@@ -133,12 +135,22 @@ LEVELS = [
 ]
 MAX_XP = 1500
 
+DEFAULT_DATA = {
+    "xp": 60,
+    "streak": 1,
+    "last_day": None,
+    "total_days": 1,
+    "done": {},
+    "once_done": {},
+    "chat_id": None,
+    "phase": 0
+}
+
 def load_data():
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r") as f:
             return json.load(f)
-    return {"xp": 0, "streak": 0, "last_day": None, "total_days": 0,
-            "done": {}, "once_done": {}, "chat_id": None, "phase": 0}
+    return DEFAULT_DATA.copy()
 
 def save_data(data):
     with open(DATA_FILE, "w") as f:
