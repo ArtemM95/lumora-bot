@@ -50,32 +50,25 @@ PHASES = [
         "name": "Месяц 1 — база",
         "zones": [
             {
-                "title": "LinkedIn",
+                "title": "Каждый день",
                 "tasks": [
-                    {"id": "li1", "name": "Заголовок профиля на EN", "xp": 20, "freq": "once"},
-                    {"id": "li2", "name": "Пост о своём опыте", "xp": 15, "freq": "daily"},
-                    {"id": "li3", "name": "10 личных DM", "xp": 25, "freq": "daily"},
+                    {"id": "dm1", "name": "10 личных DM в LinkedIn", "xp": 25, "freq": "daily"},
+                    {"id": "en1", "name": "30 мин английского", "xp": 10, "freq": "daily"},
+                    {"id": "ct1", "name": "Пост или комментарии", "xp": 15, "freq": "daily"},
+                    {"id": "uw1", "name": "3 заявки на Upwork", "xp": 20, "freq": "daily"},
+                    {"id": "in1", "name": "Инсайт дня", "xp": 10, "freq": "daily"},
                 ]
             },
             {
-                "title": "Портфолио",
+                "title": "Разовые цели",
                 "tasks": [
                     {"id": "pf1", "name": "AI demo-ролик 2-3 мин", "xp": 50, "freq": "once"},
                     {"id": "pf2", "name": "Кейс на английском", "xp": 30, "freq": "once"},
-                ]
-            },
-            {
-                "title": "Upwork",
-                "tasks": [
-                    {"id": "up1", "name": "Профиль на Upwork", "xp": 25, "freq": "once"},
-                    {"id": "up2", "name": "5 заявок на Upwork", "xp": 20, "freq": "daily"},
-                ]
-            },
-            {
-                "title": "Английский",
-                "tasks": [
-                    {"id": "en1", "name": "30 мин английского", "xp": 10, "freq": "daily"},
-                    {"id": "en2", "name": "Текст на английском", "xp": 15, "freq": "daily"},
+                    {"id": "uw2", "name": "Профиль на Upwork", "xp": 25, "freq": "once"},
+                    {"id": "ag1", "name": "Партнёрский pitch", "xp": 40, "freq": "once"},
+                    {"id": "ct2", "name": "Первый платный проект", "xp": 100, "freq": "once"},
+                    {"id": "rl1", "name": "Открыть Wise или Payoneer", "xp": 30, "freq": "once"},
+                    {"id": "rl2", "name": "Доход 1500+ USD x 2 мес", "xp": 100, "freq": "once"},
                 ]
             },
         ]
@@ -84,24 +77,22 @@ PHASES = [
         "name": "Месяц 2 — контракты",
         "zones": [
             {
-                "title": "Субподряд",
+                "title": "Каждый день",
                 "tasks": [
-                    {"id": "ag1", "name": "5 DM агентствам", "xp": 30, "freq": "daily"},
-                    {"id": "ag2", "name": "Партнёрский pitch", "xp": 40, "freq": "once"},
+                    {"id": "dm2", "name": "10 DM агентствам и клиентам", "xp": 25, "freq": "daily"},
+                    {"id": "en2", "name": "30 мин английского", "xp": 10, "freq": "daily"},
+                    {"id": "ct3", "name": "Пост или BTS-видео", "xp": 15, "freq": "daily"},
+                    {"id": "uw3", "name": "3 заявки на Upwork", "xp": 20, "freq": "daily"},
+                    {"id": "in2", "name": "Инсайт дня", "xp": 10, "freq": "daily"},
                 ]
             },
             {
-                "title": "Контракты",
+                "title": "Разовые цели",
                 "tasks": [
-                    {"id": "ct1", "name": "Первый платный проект", "xp": 100, "freq": "once"},
-                    {"id": "ct2", "name": "Отзыв от клиента", "xp": 30, "freq": "once"},
-                ]
-            },
-            {
-                "title": "Контент",
-                "tasks": [
-                    {"id": "yt1", "name": "BTS-видео процесса", "xp": 20, "freq": "daily"},
-                    {"id": "yt2", "name": "5 комментов клиентам", "xp": 10, "freq": "daily"},
+                    {"id": "ag2", "name": "Закрыть 2й платный проект", "xp": 80, "freq": "once"},
+                    {"id": "rv1", "name": "Получить 2 отзыва на EN", "xp": 50, "freq": "once"},
+                    {"id": "rt1", "name": "Первый monthly retainer", "xp": 100, "freq": "once"},
+                    {"id": "pk1", "name": "3 пакета услуг с ценами", "xp": 35, "freq": "once"},
                 ]
             },
         ]
@@ -110,25 +101,22 @@ PHASES = [
         "name": "Месяц 3 — система",
         "zones": [
             {
-                "title": "Ретейнеры",
+                "title": "Каждый день",
                 "tasks": [
-                    {"id": "rt1", "name": "Monthly retainer", "xp": 50, "freq": "once"},
-                    {"id": "rt2", "name": "3 пакета услуг с ценами", "xp": 35, "freq": "once"},
+                    {"id": "dm3", "name": "10 DM целевым клиентам", "xp": 25, "freq": "daily"},
+                    {"id": "en3", "name": "30 мин английского", "xp": 10, "freq": "daily"},
+                    {"id": "ct4", "name": "Контент или нетворкинг", "xp": 15, "freq": "daily"},
+                    {"id": "an1", "name": "Конверсия DM за день", "xp": 15, "freq": "daily"},
+                    {"id": "in3", "name": "Инсайт дня", "xp": 10, "freq": "daily"},
                 ]
             },
             {
-                "title": "Релокация",
+                "title": "Разовые цели",
                 "tasks": [
-                    {"id": "rl1", "name": "Регистрация ИП Сербия", "xp": 20, "freq": "once"},
-                    {"id": "rl2", "name": "Счёт Wise или Payoneer", "xp": 30, "freq": "once"},
-                    {"id": "rl3", "name": "Доход 1500+ USD x 2 мес", "xp": 100, "freq": "once"},
-                ]
-            },
-            {
-                "title": "Аналитика",
-                "tasks": [
-                    {"id": "an1", "name": "Конверсия DM", "xp": 15, "freq": "daily"},
-                    {"id": "an2", "name": "Инсайт недели", "xp": 10, "freq": "daily"},
+                    {"id": "sr1", "name": "Регистрация ИП в Сербии", "xp": 50, "freq": "once"},
+                    {"id": "rl3", "name": "Переезд семьи в Сербию", "xp": 200, "freq": "once"},
+                    {"id": "cl1", "name": "3 постоянных клиента", "xp": 150, "freq": "once"},
+                    {"id": "rv2", "name": "5 отзывов на LinkedIn", "xp": 75, "freq": "once"},
                 ]
             },
         ]
@@ -136,10 +124,10 @@ PHASES = [
 ]
 
 LEVELS = [
-    (0, "Новичок"),
-    (100, "Стартер"),
-    (300, "Практик"),
-    (600, "Профи"),
+    (0,    "Новичок"),
+    (100,  "Стартер"),
+    (300,  "Практик"),
+    (600,  "Профи"),
     (1000, "Эксперт"),
     (1500, "Лидер рынка"),
 ]
@@ -373,6 +361,40 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             )
         await query.edit_message_text(msg, reply_markup=build_today_keyboard(data))
 
+async def ask_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    question = " ".join(context.args)
+    if not question:
+        await update.message.reply_text(
+            "Напиши вопрос после команды. Например:\n/ask как написать холодное DM на английском?"
+        )
+        return
+    thinking_msg = await update.message.reply_text("Думаю... 🤔")
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        await thinking_msg.edit_text("API ключ не настроен.")
+        return
+    try:
+        async with httpx.AsyncClient(timeout=30) as client:
+            response = await client.post(
+                "https://api.anthropic.com/v1/messages",
+                headers={
+                    "x-api-key": api_key,
+                    "anthropic-version": "2023-06-01",
+                    "content-type": "application/json"
+                },
+                json={
+                    "model": "claude-haiku-4-5-20251001",
+                    "max_tokens": 1024,
+                    "system": "Ты помощник Артёма Малыгина — основателя видеопродакшн агентства Lumora. Артём переезжает в Сербию и строит международный бизнес в сфере AI video production. Отвечай кратко, по делу, на русском языке. Давай конкретные советы.",
+                    "messages": [{"role": "user", "content": question}]
+                }
+            )
+            data = response.json()
+            answer = data["content"][0]["text"]
+            await thinking_msg.edit_text(answer)
+    except Exception as e:
+        await thinking_msg.edit_text(f"Ошибка: {str(e)}")
+
 async def morning_reminder(app):
     while True:
         now = datetime.now(TIMEZONE)
@@ -381,7 +403,6 @@ async def morning_reminder(app):
             target += timedelta(days=1)
         wait_seconds = (target - now).total_seconds()
         await asyncio.sleep(wait_seconds)
-
         data = load_data()
         chat_id = data.get("chat_id")
         if chat_id:
@@ -409,49 +430,13 @@ async def morning_reminder(app):
 async def post_init(app):
     asyncio.create_task(morning_reminder(app))
 
-async def ask_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    question = " ".join(context.args)
-    if not question:
-        await update.message.reply_text("Напиши вопрос после команды. Например:\n/ask как написать холодное DM на английском?")
-        return
-    
-    thinking_msg = await update.message.reply_text("Думаю... 🤔")
-    
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        await thinking_msg.edit_text("API ключ не настроен.")
-        return
-    
-    try:
-        async with httpx.AsyncClient(timeout=30) as client:
-            response = await client.post(
-                "https://api.anthropic.com/v1/messages",
-                headers={
-                    "x-api-key": api_key,
-                    "anthropic-version": "2023-06-01",
-                    "content-type": "application/json"
-                },
-                json={
-                    "model": "claude-haiku-4-5-20251001",
-                    "max_tokens": 1024,
-                    "system": "Ты помощник Артёма Малыгина — основателя видеопродакшн агентства Lumora. Артём переезжает в Сербию и строит международный бизнес в сфере AI video production. Отвечай кратко, по делу, на русском языке. Давай конкретные советы.",
-                    "messages": [{"role": "user", "content": question}]
-                }
-            )
-            data = response.json()
-            answer = data["content"][0]["text"]
-            await thinking_msg.edit_text(answer)
-    except Exception as e:
-        await thinking_msg.edit_text(f"Ошибка: {str(e)}")
-
-
 def main():
     app = Application.builder().token(TOKEN).post_init(post_init).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("today", today_command))
     app.add_handler(CommandHandler("stats", stats_command))
-    app.add_handler(CommandHandler("ask", ask_command))
     app.add_handler(CommandHandler("phase", phase_command))
+    app.add_handler(CommandHandler("ask", ask_command))
     app.add_handler(CallbackQueryHandler(button_handler))
     logger.info("Lumora Bot запущен...")
     app.run_polling(drop_pending_updates=True)
