@@ -14,7 +14,8 @@ from telegram.ext import (
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = "8639409120:AAGAeEZVG9FMrwzk7QZGxgaKDpCpHyoowNg"
+import os
+TOKEN = os.environ.get("TOKEN")
 TIMEZONE = pytz.timezone("Europe/Belgrade")
 DATA_FILE = os.path.join(os.path.expanduser("~"), "lumora_progress.json")
 
