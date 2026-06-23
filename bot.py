@@ -66,8 +66,8 @@ PHASES = [
                     {"id": "pf2", "name": "Кейс на английском", "xp": 30, "freq": "once"},
                     {"id": "uw2", "name": "Профиль на Upwork", "xp": 25, "freq": "once"},
                     {"id": "ag1", "name": "Партнёрский pitch", "xp": 40, "freq": "once"},
-                    {"id": "ct2", "name": "Первый платный проект", "xp": 100, "freq": "once"},
-                    {"id": "rl1", "name": "Открыть Wise или Payoneer", "xp": 30, "freq": "once"},
+                    {"id": "ct2", "name": "Первый контракт", "xp": 100, "freq": "once"},
+                    {"id": "rl1", "name": "Счёт Wise/Payoneer", "xp": 30, "freq": "once"},
                     {"id": "rl2", "name": "Доход 1500+ USD x 2 мес", "xp": 100, "freq": "once"},
                 ]
             },
